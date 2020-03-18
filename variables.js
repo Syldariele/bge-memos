@@ -1,7 +1,7 @@
 // Déclaration de variables
 
 let nbOfScreenColumns = 2;
-nbOfScreenColumns = "two";
+nbOfScreenColumns = "2";
 
 // Déclaration de variable constantes
 
@@ -34,3 +34,5 @@ const functionVariable = (arg1, arg2, ...args) => {
 
 const nullVariable = null;
 const undefinedVariable = undefined;
+
+// GIT WAS HERE
