@@ -8,3 +8,4 @@ git add <nom du fichier / dossier>                      # ajouter les modificati
 git commit -m "<message à attacher au commit>"          # sauvegardé les modification précédement ajoutées
 git status                                              # affiche l'état de mon projet git à cet instant
 git log                                                 # affiche l'historique des commits
+git restore <nom du fichier / dossier>                  # remet le contenu du fichier à l'état du dernier commit
