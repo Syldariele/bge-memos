@@ -34,5 +34,3 @@ const functionVariable = (arg1, arg2, ...args) => {
 
 const nullVariable = null;
 const undefinedVariable = undefined;
-
-// GIT ISN'T HERE
