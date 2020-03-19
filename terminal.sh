@@ -13,3 +13,7 @@ git restore <nom du fichier / dossier>                  # remet le contenu du fi
 git checkout <nom d’une branche ou hash du commit>      # déplace la tête de lecture (HEAD) sur la branche ou le commit choisi
 git branch <nom de la branche>                          # créé une branche en copiant la branche actuelle
 git branch                                              # liste les branches existantes
+git merge <nom de la branche> -m "<message du commit>"  # fusionne la branche nommé à l'intérieur de la branche actuelle, en créant un commit.
+git remote                                              # liste les dépôts distants de notre projet git
+git remote add <nom du dépôt distant> <adresse du dépôt># ajoute un nouveau dépôt distant (origin dans 99% des cas)
+git push <nom du dépôt> <branche distante>              # envoie la branche courante sur la branche distante du dépôt choisi
