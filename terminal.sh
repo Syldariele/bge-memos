@@ -12,6 +12,7 @@ git log --pretty=oneline --graph                        # affiche l'historique d
 git restore <nom du fichier / dossier>                  # remet le contenu du fichier à l'état du dernier commit
 git checkout <nom d’une branche ou hash du commit>      # déplace la tête de lecture (HEAD) sur la branche ou le commit choisi
 git branch <nom de la branche>                          # créé une branche en copiant la branche actuelle
+git branch <nom de la branche> <branche à copier>       # copie la branche désigné dans une nouvelle branche (ex. git branch blabla origin/blabla)
 git branch                                              # liste les branches existantes
 git merge <nom de la branche> -m "<message du commit>"  # fusionne la branche nommé à l'intérieur de la branche actuelle, en créant un commit.
 git remote                                              # liste les dépôts distants de notre projet git
