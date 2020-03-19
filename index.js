@@ -6,3 +6,5 @@ const percentOf = (nbOfPercent, total) => {
 }
 
 const percentageWithFn = percentOf(5, 80);
+
+// GITHUB WAS HERE
